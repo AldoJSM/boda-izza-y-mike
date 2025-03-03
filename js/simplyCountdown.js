@@ -115,32 +115,32 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2025,
-                month: 4,
-                day: 26,
-                hours: 14,
-                minutes: 0,
-                seconds: 0,
-                words: {
-                    days: 'dia',
-                    hours: 'hora',
-                    minutes: 'minuto',
-                    seconds: 'segundo',
-                    pluralLetter: 's'
-                },
-                plural: true,
-                inline: false,
-                enableUtc: true,
-                onEnd: function () {
-                    return;
-                },
-                refresh: 1000,
-                inlineClass: 'simply-countdown-inline',
-                sectionClass: 'simply-section',
-                amountClass: 'simply-amount',
-                wordClass: 'simply-word',
-                zeroPad: false
-            }, args),
+            year: 2025,
+            month: 4,
+            day: 26,
+            hours: 14,
+            minutes: 0,
+            seconds: 0,
+            words: {
+                days: 'dia',
+                hours: 'hora',
+                minutes: 'minuto',
+                seconds: 'segundo',
+                pluralLetter: 's'
+            },
+            plural: true,
+            inline: false,
+            enableUtc: true,
+            onEnd: function () {
+                return;
+            },
+            refresh: 1000,
+            inlineClass: 'simply-countdown-inline',
+            sectionClass: 'simply-section',
+            amountClass: 'simply-amount',
+            wordClass: 'simply-word',
+            zeroPad: false
+        }, args),
             interval,
             targetDate,
             targetTmpDate,

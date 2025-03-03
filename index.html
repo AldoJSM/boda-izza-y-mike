@@ -60,7 +60,7 @@
             <div class="row">
               <div class="col-xs-2">
                 <div id="fh5co-logo">
-                  <a href="index.html">Nuestra Boda<strong>.</strong></a>
+                  <a href="index.html">Nuestra boda<strong>.</strong></a>
                 </div>
               </div>
             </div>
@@ -100,9 +100,9 @@
               <div
                 class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box"
               >
-                <h2>¡Los Novios!</h2>
-                <h3>Estas invitado a celebrar nuestra boda</h3>
-                <p>Abril 26, 2025 San Miguel Atlamajac, Temascalapa</p>
+                <h2>Estás invitado a celebrar nuestra boda.</h2>
+
+                <p>Abril 26, 2025</p>
               </div>
             </div>
             <div class="couple-wrap animate-box">
@@ -117,9 +117,9 @@
                 <div class="desc-groom">
                   <h3>Miguel Medina</h3>
                   <p>
-                    "Hay momentos en la vida que son especiales por si solos,
+                    "Hay momentos en la vida que son especiales por sí solos,
                     pero compartirlos con la persona que amamos los hace
-                    inolvidables."
+                    inolvidables".
                   </p>
                 </div>
               </div>
@@ -127,7 +127,7 @@
               <div class="couple-half">
                 <div class="bride">
                   <img
-                    src="images/bride.jpg"
+                    src="images/izza.jpeg"
                     alt="groom"
                     class="img-responsive"
                   />
@@ -137,7 +137,7 @@
                   <p>
                     "La historia comienza cuando dos personas que ni soñaban
                     conocerse terminan encontrándose en el instante menos
-                    esperado pero si el más indicado"
+                    esperado, pero sí el más indicado".
                   </p>
                 </div>
               </div>
@@ -165,7 +165,7 @@
                   <div class="col-md-10 col-md-offset-1">
                     <div class="col-md-6 col-sm-6 text-center">
                       <div class="event-wrap animate-box">
-                        <h3>Ceremonia Religiosa</h3>
+                        <h3>Ceremonia religiosa</h3>
                         <div class="event-col">
                           <i class="icon-clock"></i>
                           <span>2:00 PM</span>
@@ -177,8 +177,8 @@
                           <span>Abril, del 2025</span>
                         </div>
                         <p>
-                          Esperamos poder contar con su precencia en la iglesia
-                          de San Miguel Atlamajac para la celebracion de
+                          Esperamos poder contar con su presencia en la iglesia
+                          de San Miguel Atlamajac para la celebración de
                           nuestros votos matrimoniales.
                         </p>
                       </div>
@@ -189,7 +189,6 @@
                         <div class="event-col">
                           <i class="icon-clock"></i>
                           <span>3:00 PM</span>
-                          <span>4:00 AM</span>
                         </div>
                         <div class="event-col">
                           <i class="icon-calendar"></i>
@@ -197,33 +196,13 @@
                           <span>Abril, 2025</span>
                         </div>
                         <p>
-                          Despues de la Ceremonia Religiosa esperamos contar con
-                          su presencia en el auditorio de San Miguel Atlamajac
-                          para celebrar el bodorrio y ponerse bien happys todos
-                          juntos.
+                          Después de la ceremonia religiosa, esperamos contar
+                          con su presencia en el auditorio de San Miguel
+                          Atlamajac para celebrar el bodorrio y ponerse bien
+                          happys todos juntos.
                         </p>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div id="fh5co-testimonial">
-          <div class="container">
-            <div class="row">
-              <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                  <span>Amigos y Familiares</span>
-                  <h2>Mensajes de apoyo</h2>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-12 animate-box">
-                  <div class="wrap-testimony">
-                    <div class="owl-carousel-fullwidth"></div>
                   </div>
                 </div>
               </div>
@@ -240,7 +219,7 @@
           <div class="container">
             <div class="row animate-box">
               <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2>Dejanos un mensaje</h2>
+                <h2>Déjanos un mensaje.</h2>
               </div>
             </div>
             <div class="row animate-box">
@@ -284,6 +263,26 @@
             </div>
           </div>
         </div>
+
+        <div id="fh5co-testimonial">
+          <div class="container">
+            <div class="row">
+              <div class="row animate-box">
+                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                  
+                  <h2>Mensajes de nuestros invitados.</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 animate-box">
+                  <div class="wrap-testimony">
+                    <div class="owl-carousel-fullwidth"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- jQuery -->
@@ -312,20 +311,14 @@
       <script src="js/main.js"></script>
 
       <script>
-        var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
-
         // default example
         simplyCountdown(".simply-countdown-one", {
-          year: d.getFullYear(),
-          month: d.getMonth() + 1,
-          day: d.getDate(),
-        });
-
-        //jQuery example
-        $("#simply-countdown-losange").simplyCountdown({
-          year: d.getFullYear(),
-          month: d.getMonth() + 1,
-          day: d.getDate(),
+          year: 2025,
+          month: 4, // Abril
+          day: 26, // Día 26
+          hours: 14, // 14:00 (2 PM)
+          minutes: 0,
+          seconds: 0,
           enableUtc: false,
         });
       </script>
